@@ -98,12 +98,12 @@
 
     <main id="main">
       <!-- ======= About Us Section ======= -->
-      <section id="about" class="about">
+      <section id="about" class="about" data-aos="fade-up">
         <div class="container">
-          <div class="section-title" data-aos="fade-up">
+          <div class="section-title">
             <h2>About Bard</h2>
           </div>
-          <div class="image-wrapper">
+          <div class="logo-wrapper">
             <a target="_blank" href="https://bard-rr.com" class="hypha">
               <img src="assets/img/bard_logo.png" />
             </a>
@@ -116,6 +116,34 @@
                 application owners to quickly find out why users aren't
                 interacting with their apps as expected.
               </p>
+              <div class="image-wrapper">
+                <video autoplay loop muted playsinline class="video">
+                  <source
+                    src="assets/img/MP4s/whole system data flow.mp4"
+                    type="video/mp4"
+                  />
+                  Your browser does not support the HTML5 Video element.
+                </video>
+              </div>
+              <p>
+                Bard uses conversion funnels to show where users are struggling,
+                making front end issues visible to developers.
+              </p>
+              <div class="image-wrapper">
+                <video autoplay loop muted playsinline class="video">
+                  <source
+                    src="assets/img/MP4s/View Funnel.mp4"
+                    type="video/mp4"
+                  />
+                  Your browser does not support the HTML5 Video element.
+                </video>
+              </div>
+              <a
+                target="_blank"
+                href="https://bard-rr.com/"
+                class="button primary"
+                >Read Our Case Study!</a
+              >
             </div>
           </div>
         </div>
@@ -129,40 +157,27 @@
         </div>
         <div class="container">
           <div class="row">
-            <div
-              class="card"
-              style="background-image: url('assets/img/more-services-1.jpg')"
-              data-aos="fade-up"
-              data-aos-delay="100"
-            >
-              <div class="card-body">
-                <h5 class="card-title"><a href="">Lobira Duno</a></h5>
-                <p class="card-text">
-                  Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod
-                  tempor ut labore et dolore magna aliqua.
-                </p>
-                <div class="read-more">
-                  <a href="#"><i class="bi bi-arrow-right"></i> Read More</a>
-                </div>
+            <figure data-aos="fade-up">
+              <div class="image-wrapper">
+                <img src="assets/img/Neptune_Thumbnail.png" />
               </div>
-            </div>
-            <div
-              class="card"
-              style="background-image: url('assets/img/more-services-4.jpg')"
-              data-aos="fade-up"
-              data-aos-delay="200"
-            >
-              <div class="card-body">
-                <h5 class="card-title"><a href="">Pale Treda</a></h5>
-                <p class="card-text">
-                  Nostrum eum sed et autem dolorum perspiciatis. Magni porro
-                  quisquam laudantium voluptatem.
-                </p>
-                <div class="read-more">
-                  <a href="#"><i class="bi bi-arrow-right"></i> Read More</a>
-                </div>
+              <h3 class="subheader" data-aos="fade-up">Neptune</h3>
+              <p data-aos="fade-up">
+                A crypto lending and borrowing platform on the Solana
+                blockchain. Built with Rust, Typescript & Express.js
+              </p>
+            </figure>
+
+            <figure data-aos="fade-up">
+              <div class="image-wrapper">
+                <img src="assets/img/request_bin.png" />
               </div>
-            </div>
+              <h3 class="subheader" data-aos="fade-up">RequestBin</h3>
+              <p data-aos="fade-up">
+                A clone of RequestBin for capturing HTTP requests. Built with
+                React, Express and web sockets
+              </p>
+            </figure>
           </div>
         </div>
       </section>
@@ -438,7 +453,7 @@
           </div>
 
           <div class="row">
-            <div data-aos="fade-up" data-aos-delay="100">
+            <div data-aos="fade-up">
               <div class="contact-about">
                 <p>Feel free to contact me via email!</p>
                 <p>You can also find me on LinkedIn and Github</p>

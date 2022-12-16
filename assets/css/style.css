@@ -584,6 +584,11 @@ section {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
+  margin-bottom: 3rem;
+}
+
+.more-services .card:last-child {
+  margin-bottom: 0rem;
 }
 
 .more-services .card-body {
@@ -594,6 +599,7 @@ section {
   transition: 0.3s;
   transition: ease-in-out 0.4s;
   border-radius: 5px;
+  text-align: center;
 }
 
 .more-services .card-title {
@@ -620,17 +626,6 @@ section {
 
 .more-services .read-more a:hover {
   text-decoration: underline;
-}
-
-.more-services .card:hover .card-body {
-  background: #3498db;
-}
-
-.more-services .card:hover .read-more a,
-.more-services .card:hover .card-title,
-.more-services .card:hover .card-title a,
-.more-services .card:hover .card-text {
-  color: #fff;
 }
 
 /*--------------------------------------------------------------
@@ -891,76 +886,8 @@ section {
   font-size: 14px;
 }
 
-.contact .php-email-form .error-message {
-  display: none;
-  color: #fff;
-  background: #ed3c0d;
-  text-align: left;
-  padding: 15px;
-  font-weight: 600;
-}
-
-.contact .php-email-form .error-message br + br {
-  margin-top: 25px;
-}
-
-.contact .php-email-form .sent-message {
-  display: none;
-  color: #fff;
-  background: #18d26e;
-  text-align: center;
-  padding: 15px;
-  font-weight: 600;
-}
-
-.contact .php-email-form .loading {
-  display: none;
-  background: #fff;
-  text-align: center;
-  padding: 15px;
-}
-
-.contact .php-email-form .loading:before {
-  content: "";
-  display: inline-block;
-  border-radius: 50%;
-  width: 24px;
-  height: 24px;
-  margin: 0 10px -6px 0;
-  border: 3px solid #18d26e;
-  border-top-color: #eee;
-  -webkit-animation: animate-loading 1s linear infinite;
-  animation: animate-loading 1s linear infinite;
-}
-
-.contact .php-email-form .form-group {
-  margin-bottom: 20px;
-}
-
-.contact .php-email-form input,
-.contact .php-email-form textarea {
-  border-radius: 0;
-  box-shadow: none;
-  font-size: 14px;
-  padding: 10px 15px;
-}
-
-.contact .php-email-form input:focus,
-.contact .php-email-form textarea:focus {
-  border-color: #3498db;
-}
-
-.contact .php-email-form button[type="submit"] {
-  background: #3498db;
-  border: 0;
-  padding: 10px 24px;
-  color: #fff;
-  transition: 0.4s;
-  border-radius: 50px;
-}
-
-.contact .php-email-form button[type="submit"]:hover {
-  background: #2383c4;
+#contact {
+  padding-bottom: 0px;
 }
 
 @-webkit-keyframes animate-loading {
@@ -1056,9 +983,10 @@ section {
   font-size: 14px;
 }
 
-#footer .credits {
-  font-size: 13px;
-  padding-top: 5px;
+.credits {
+  text-align: center;
+  font-size: 0.7rem;
+  padding-top: 1rem;
   color: #222222;
 }
 
@@ -1079,11 +1007,24 @@ section {
   border-radius: 50%;
 }
 
-.image-wrapper {
+.logo-wrapper {
   width: 50%;
   margin-left: auto;
   margin-right: auto;
   padding-bottom: 30px;
+}
+
+.logo-wrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.image-wrapper {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 2rem;
 }
 
 .image-wrapper img {
@@ -1092,6 +1033,58 @@ section {
   object-fit: contain;
 }
 
+.image-wrapper video {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  border-radius: 10px;
+  width: 100%;
+  box-shadow: 5px 5px 5px grey;
+}
+
 .about_bard {
   text-align: center;
+}
+
+.row {
+  text-align: center;
+}
+
+.row h3 {
+  padding-bottom: 1rem;
+}
+
+h3.subheader::before,
+h3.subheader::after {
+  content: "";
+  width: 40px;
+  height: 2px;
+  background: #3498db;
+  display: inline-block;
+}
+
+h3.subheader::before {
+  margin: 0 15px 10px 0;
+}
+
+h3.subheader::after {
+  margin: 0 0 10px 15px;
+}
+
+.about_bard p {
+  font-size: 1.5rem;
+  padding-bottom: 1rem;
+}
+
+.about_bard p:first-of-type {
+  padding-top: 0rem;
+}
+
+button.primary,
+.button.primary {
+  background-color: #7398ff;
+  box-shadow: none !important;
+  color: #fff !important;
+  margin: 0.7em;
+  padding: 0.5rem 1rem;
 }

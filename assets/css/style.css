@@ -542,6 +542,19 @@ section {
   width: 100%;
   box-shadow: 5px 5px 5px grey;
 }
+.image-wrapper.mobile-only {
+  display: none;
+}
+
+/* mobile only changes */
+@media screen and (max-width: 768px) {
+  .image-wrapper.mobile-hidden {
+    display: none;
+  }
+  .image-wrapper.mobile-only {
+    display: block;
+  }
+}
 
 .about_bard {
   text-align: center;

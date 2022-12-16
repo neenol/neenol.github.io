@@ -1,3 +1,3 @@
-# nino.github.io
+# neenol.github.io
 
-The source code for my personal site
+The source code for my personal site.

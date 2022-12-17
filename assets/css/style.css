@@ -97,7 +97,7 @@ h6 {
 }
 
 #hero .about-me {
-  padding-bottom: 3.5rem;
+  padding-bottom: 3.75rem;
 }
 
 @media (min-width: 1024px) {
@@ -516,8 +516,8 @@ section {
   border-radius: 50%;
 }
 @media screen and (max-width: 768px) {
-  .img-fluid {
-    margin-top: 0.85rem;
+  .hero-img {
+    margin-top: 1.5rem;
   }
 }
 

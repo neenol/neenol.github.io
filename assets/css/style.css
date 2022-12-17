@@ -576,7 +576,7 @@ div.image-wrapper.margin-it {
   .image-wrapper.mobile-only {
     display: block;
   }
-  .about-bard {
+  #about {
     padding-bottom: 20px;
   }
 }

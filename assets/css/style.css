@@ -61,7 +61,7 @@ h6 {
 }
 
 #hero h1 {
-  margin: 0 0 10px 0;
+  margin: 0 0 25px 0;
   font-size: 48px;
   font-weight: 700;
   line-height: 56px;
@@ -94,6 +94,10 @@ h6 {
 
 #hero .animated {
   animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+
+#hero .about-me {
+  padding-bottom: 3rem;
 }
 
 @media (min-width: 1024px) {
@@ -172,13 +176,13 @@ h6 {
 # Sections General
 --------------------------------------------------------------*/
 section {
-  padding: 3.75rem 0;
+  margin: 3.75rem 0;
   overflow: hidden;
 }
 
 @media (max-width: 991px) {
   section {
-    padding: 2rem 0;
+    margin: 2rem 0;
   }
 }
 

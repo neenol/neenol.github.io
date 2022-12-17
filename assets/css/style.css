@@ -172,8 +172,14 @@ h6 {
 # Sections General
 --------------------------------------------------------------*/
 section {
-  padding: 60px 0;
+  padding: 3.75rem 0;
   overflow: hidden;
+}
+
+@media (max-width: 991px) {
+  section {
+    padding: 2rem 0;
+  }
 }
 
 .section-bg {
@@ -507,7 +513,7 @@ section {
 }
 @media screen and (max-width: 768px) {
   .img-fluid {
-    margin-top: 4rem;
+    margin-top: 1rem;
   }
 }
 
